@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 
+function send() {
+  console.log("send");
+}
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div className="content">
+        <h1 className="title">
+          Email Demo
+        </h1>
+        <button className="btn" onClick={send}>Send</button>
+      </div>
     </div>
   );
 }
