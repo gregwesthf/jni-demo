@@ -3,3 +3,9 @@
   to = "https://rdtest1.spd-test.uk/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://rdtest3.spd-test.uk/*"
+  to = "https://rdtest1.spd-test.uk/:splat"
+  status = 301
+  force = true
